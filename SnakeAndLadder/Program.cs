@@ -15,6 +15,8 @@ namespace SnakeAndLadder
             SnakeLadderGame snakeLadder = new SnakeLadderGame();
             SnakeLadderGame.StartGame();//static method
             snakeLadder.PlayerRoll();
+            Console.WriteLine("----------------------");
+            snakeLadder.CheckOption();  
             Console.ReadLine();
         }
     }
