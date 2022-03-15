@@ -17,6 +17,7 @@ namespace SnakeAndLadder
             snakeLadder.PlayerRoll();
             Console.WriteLine("----------------------");
             snakeLadder.CheckOption();  
+            snakeLadder.PlayTillEnd();
             Console.ReadLine();
         }
     }
